@@ -1,0 +1,35 @@
+.sidebar { 
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(2,2,18,1) 35%, #314EE6 100%);    color: #fff;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    position: relative;
+}
+
+.customMenu{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    margin-right: -20px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+li {
+    transition: all 0.5s;
+    cursor: pointer !important;
+}
+li:hover {
+    background-color: #7787d7;
+    border-radius: 10px;
+    padding: 10px 5px;
+}
