@@ -94,7 +94,7 @@ a:hover, a:focus {
 }
 
 .card[data-color="yellow"] {
-    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(2,2,18,1) 35%, #314EE6 100%);    color: #fff;
 }
 .card[data-color="yellow"] .description {
     color: #fefefe;
